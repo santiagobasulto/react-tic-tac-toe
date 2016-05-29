@@ -1,0 +1,35 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "mocha './app/**/*.spec.js' --compilers js:babel-register"
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "lodash": "^4.12.0",
+    "react": "^15.1.0",
+    "react-dom": "*",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "deep-freeze": "0.0.1",
+    "expect": "^1.20.1",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.1.0",
+    "redux-devtools": "^3.3.1"
+  }
+}
